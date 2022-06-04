@@ -42,3 +42,8 @@ p:hover{
 .rounded-circle{
   border: 5px solid #77c
 }
+
+.list-group-item{
+  font-size: 1.2em;
+  margin-left: -10px;
+}
