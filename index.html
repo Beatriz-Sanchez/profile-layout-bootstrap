@@ -190,10 +190,27 @@
                   <textarea class="form-control" placeholder="sua mensagem" id="floatingTextarea2" style="height: 100px"></textarea>
                   <label for="floatingTextarea2" class="text-dark">Sua mensagem</label>
                 </div>
-                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+                <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#modalObrigada">Enviar</button>
               </form>
             </div>
           </div>
+      </div>
+      <!-- MODAL -->
+      <div class="modal fade" id="modalObrigada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content border-secondary">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="exampleModalLabel">Obrigada!</h5>
+              <button type="button" class="btn-close btn-close-white text-light" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body border-0">
+              Retornarei sua mensagem assim que puder lê-la!
+            </div>
+            <div class="modal-footer border-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
     <!-- bootstrap poppers (só é necessário se for usar dropdowns, popovers e tooltips) -->
